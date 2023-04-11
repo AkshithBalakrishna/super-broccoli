@@ -1,0 +1,96 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+#heading {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#headingHr {
+  width: 7%;
+  background-color: rgb(139, 105, 16);
+  height: 7px;
+  margin-bottom: 30px;
+}
+
+#menuHeading {
+  font-style: "Roboto";
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.button {
+  margin-right: 10px;
+  padding: 12px;
+  background-color: transparent;
+  color: rgb(139, 105, 16);
+  border: 2px solid rgb(139, 105, 16);
+  border-radius: 10px;
+  box-shadow: 1px 1px black;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: rgb(139, 105, 16);
+  color: white;
+}
+
+#containerHeading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 40%;
+}
+
+#mainImg {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: 3px solid rgb(139, 105, 16);
+  border-radius: 10px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.233);
+}
+
+#containerHeading {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  text-transform: capitalize;
+}
+
+#content p {
+  opacity: 0.6;
+}
+
+#price {
+  color: rgb(139, 105, 16);
+}
+
+#containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+  #container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+  }
+}
